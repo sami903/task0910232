@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Task of positioning and flex</title>
+    
+ </head>
+    
+    <body>
+        <center>
+        <h1>Stories with images & Text</h1>
+        </center>
+        <center>
+          <div class="container1">
+    <div class="static-element">Static</div>
+            <center>
+             <img src="story%20img%201.jpg">
+            </center>
+
+     </div>
+        </center>
+    
+        
+        <br>
+        <center> 
+        
+      <div class="container2">
+    <div class="relative-element">Relative</div>
+          <p>Once upon a time, in a desert far away, there was a rose who was so proud of her beautiful looks. Her only complaint was that she was growing next to an ugly cactus.
+
+Every day, the beautiful rose would insult and mock the cactus about his looks, all while the cactus remained quiet. All the other plants nearby tried to make the rose see sense, but she was too swayed by her own looks.
+
+One scorching summer, the desert became dry, and there was no water left for the plants. The rose quickly began to wilt. Her beautiful petals dried up, losing their lush color.
+Looking to the cactus, she saw a sparrow dip his beak into the cactus to drink some water. Though ashamed, the rose asked the cactus if she could have some water. The kind cactus readily agreed, helping them both through the tough summer as friends.<br><br>"Moral of story":  Never Judge anyone by the way they look</p>
+        </div>
+        </center>
+    
+    <br>
+    <center>
+      <div class="container3">
+    <div class="absolute-element">Absolute</div>
+          <center>
+           <img src="story%20img%202.jpg">
+              </center>
+    
+      </div>
+          </center>
+    
+    <br>
+        <center>
+      <div class="container4">
+    <div class="fixed-element">Fixed</div>
+          <p>There was an old owl who lived in an oak tree. Every day, he observed incidents that occurred around him.
+
+Yesterday, he watched as a young boy helped an older man carry a heavy basket. Today, he saw a young girl shouting at her mother. The more he saw, the less he spoke.
+
+As the days went on, he spoke less but heard more. The old owl heard people talking and telling stories.
+
+He heard a woman saying an elephant jumped over a fence. He heard a man saying that he had never made a mistake.
+              The old owl had seen and heard what happened to people. Some became better, and some became worse. But the old owl in the tree had become wiser each day.<br><br>
+              "Moral of story": Be more observant.Talk less and listen more.<br> This will make us wise.
+</p>
+        </div>
+        </center>
+        
+        
+        
+        <br>
+    
+          <div class="container5">
+    <div class="main"></div>
+              <center>    
+              <img src="laptop%20img1.jpeg">
+              <img  src="phone%20img%202.jpeg">
+              <img  src="phone%20img3.jpeg">
+              </center>
+        </div>
+        
+    
+    
+    </body>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+       
+        img{
+            width: 300px;
+            height: 300px;
+            
+        }
+        
+        
+        .container1
+        {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            border: 3px solid black;
+        }
+         .container2
+        {
+            position: relative;
+            width: 1000px;
+            height: 300px;
+            border: 3px solid black;
+        }
+         .container3
+        {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            border: 3px solid black;
+        }
+         .container4
+        {
+            position: relative;
+            width: 1000px;
+            height: 200px;
+            border: 3px solid black;
+        }
+         .container5
+        {
+        
+            width: 1500px;
+            height: 400px;
+            border: 3px solid black;
+        }
+        .static-element{
+            position: static;
+            top: 20px;
+            left: 50px;
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            
+        }
+        .relative-element{
+           position: relative;
+            top: 20px;
+            left: 150px;
+            width: 60px;
+            height: 50px;
+            background-color: aqua; 
+        }
+        .absolute-element{
+            position: absolute;
+            top: 350px;
+            left: 300px;
+            width: 60px;
+            height: 50px;
+            background-color: aqua;
+        }
+        .fixed-element{
+            position: fixed;
+            top: 20px;
+            left: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+        }
+         .main{
+            display: flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin: 15px;
+        }
+       
+    </style>
+
+</html>
